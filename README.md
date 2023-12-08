@@ -149,6 +149,7 @@ Let's make sure that our program is working by running the following commands:
 Copy the output record from the mint transition and paste it into the `./inputs/project_name.in` file under the `[transfer]` section. Be sure to remove the `.private` and `.public` suffixes.
 
 ##### **TODO** add your screenshot of mint output here:
+![Alt text](mint.png)
 
 3. Can we transfer tokens? `leo run transfer`
 
@@ -176,7 +177,7 @@ Copy the output record from the mint transition and paste it into the `./inputs/
 You can see here, one account now has 90 tokens and the other has 10, meaning we succesfully transfered 10 tokens.
 
 ##### **TODO** add your screenshot of transfer output here:
-
+![Alt text](transfer.png)
 ### Step 3. Create our Deployment Script
 
 We need a few environment variables set to deploy our program. We can create a script to set these variables for us.
